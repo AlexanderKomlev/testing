@@ -1,0 +1,89 @@
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 100px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none
+}
+
+.cards {
+    margin: 10px 0;
+    height: 25px
+}
+
+.cards li {
+    display: block;
+    float: left
+}
+
+.card {
+    float: left;
+    width: 50px;
+    height: 36px;
+    text-indent: -9999px;
+    background-position: 0 0;
+    margin-right: 4px
+}
+
+#submitform {
+    margin-left: 10px
+}
+
+.card.cdisabled {
+    background-position: 0 -25px;
+    opacity: .3
+}
+
+.card.visa {
+    background-image: url(../img/free-icon-visa-349221.png);
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.card.amex {
+    background-image: url(../img/free-icon-american-express-349228.png);
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.card.jcb {
+    background-image: url(../img/free-icon-jcb-349237.png);
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.card.master {
+    background-image: url(../img/free-icon-card-11107226.png);
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.card.discover {
+    background-image: url(../img/free-icon-credit-card-8685049.png);
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.card.diners_club {
+    background-image: url(../img/free-icon-atm-card-12955236.png);
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.footer {
+    margin-top: 100vh;
+}

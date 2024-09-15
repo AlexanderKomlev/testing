@@ -1,4 +1,4 @@
-![CI](https://github.com/AlexanderKomlev/dom/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/AlexanderKomlev/testing/actions/workflows/web.yml/badge.svg)
 
 # Webpack5
 
